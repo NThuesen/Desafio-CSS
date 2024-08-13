@@ -125,3 +125,30 @@ body {
 .autoresize{
   font-weight: bold;
 }
+
+.card-container{
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  justify-content: center;
+}
+.card{
+  width: 12rem;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: 1px 3px 2px 1px rgb(140, 140, 140);
+  border-radius: 8px;
+}
+.card-title{
+  font-weight: bold;
+  font-size: large;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.card-content{font-family: "Comic Sans MS", "Comic Sans", cursive;
+
+}
